@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Festiair</string>
+    <string name="festiair">Festiair</string>
+    <string name="inputId"><font size="20" > &#32; Ingresa tu ID"</font></string>
+    <string name="inputName"><font size="20" >Nombre</font></string>
+    <string name="inputLastName"><font size="20" >Apellido</font></string>
+    <string name="inputCountry"><font size="20" >País</font></string>
+    <string name="inputAge"><font size="20" >Edad</font></string>
+    <string name="inputFestivalName"><font size="20" >Nombre</font></string>
+    <string name="inputFestivalGenre"><font size="20" >Género</font></string>
+    <string name="inputFestivalCountry"><font size="20" >País</font></string>
+</resources>

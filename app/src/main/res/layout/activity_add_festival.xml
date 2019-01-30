@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:background="@drawable/background_add_festival_activity"
+                 tools:context=".controller.pages.ActivityAddFestival">
+
+    <TextView
+            android:text="Agregar Festival"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/krub"
+            android:layout_marginTop="116dp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <EditText
+            android:inputType="text"
+            android:hint="@string/inputFestivalName"
+            android:layout_width="282dp"
+            android:layout_height="44dp"
+            android:id="@+id/festival_input_name"
+            android:background="#fff"
+            android:textSize="18sp"
+            android:fontFamily="@font/krub"
+            android:textColor="#707070"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="223dp"/>
+
+    <EditText
+            android:inputType="text"
+            android:hint="@string/inputFestivalGenre"
+            android:layout_width="282dp"
+            android:layout_height="44dp"
+            android:id="@+id/festival_input_genre"
+            android:background="#fff"
+            android:textSize="18sp"
+            android:fontFamily="@font/krub"
+            android:textColor="#707070"
+            android:layout_centerInParent="true"/>
+
+    <EditText
+            android:hint="@string/inputFestivalCountry"
+            android:inputType="text"
+            android:layout_width="282dp"
+            android:layout_height="44dp"
+            android:id="@+id/festival_input_country"
+            android:background="#fff"
+            android:textSize="18sp"
+            android:fontFamily="@font/krub"
+            android:textColor="#707070"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="221dp"/>
+
+    <Button
+            android:text="Agregar"
+            android:layout_width="147sp"
+            android:layout_height="47sp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/festival_btn_add"
+            android:layout_marginBottom="153dp"
+            android:background="#F433AB"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="@font/krub"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/festival_btntext_return"
+            android:textColor="#fff"
+            android:fontFamily="@font/krub"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:text="Regresar"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="98dp"/>
+
+
+</RelativeLayout>
